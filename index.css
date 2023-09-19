@@ -1,0 +1,91 @@
+/* .container-search{
+    position: fixed;
+} */
+header{
+    position: fixed;
+    width: 100%;
+}
+
+/* navbar */
+.container-nav{
+    background-color: #fff;
+    padding: 20px 0px 20px 0px;
+}
+
+.navbar-brand{
+    margin-left:30px ;
+}
+
+.navbar-toggler{
+    border: none;
+}
+.material-symbols-outlined{
+    color: #63B849;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.navbar-list{
+    margin-top: 20px;
+}
+
+.navbar-brand img{
+    width: 101px;
+}
+
+.login-section{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.nav-link{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #333;
+    padding-left: 18px;
+    padding-top: 10px;
+}
+.nav-link:hover{
+    color: #63B849;
+}
+
+.login-donasi{
+    display: flex;
+    gap: 15px;
+}
+
+.login button{
+    border:2px solid #63B849;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #63B849;
+    padding: 5px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    width: 100%;
+}
+
+.donasi button{
+    float: right;
+    border:2px solid #63B849;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #63B849;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    padding: 5px;
+    width: 100%;
+
+}
+
+.search-input {
+    display: none;
+}
